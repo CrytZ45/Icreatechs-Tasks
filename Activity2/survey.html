@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Forms Assignment</title>
+</head>
+<body>
+    <div class="login-box">
+      <h2>SURVEY FORM</h2>
+        <form>
+          <div class="user-box">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+          </div>
+          <div class="user-box">
+            <label for="age">Age:</label><br>
+            <input type="text" id="age" name="age"><br>
+          </div>
+          <div class="user-box">
+            <label for="gender">Gender:</label><br>
+          </div>
+          <br>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+
+          <div class="user-box">
+            <label for="programming_languages">Programming Languages:</label><br>
+          </div>
+          <br>
+          <input type="checkbox" id="python" name="programming_languages" value="Python">
+          <label for="python">Python</label><br>
+          <input type="checkbox" id="java" name="programming_languages" value="Java">
+          <label for="java">Java</label><br>
+          <input type="checkbox" id="javascript" name="programming_languages" value="JavaScript">
+          <label for="javascript">JavaScript</label><br>
+
+          <div class="user-box">
+            <label for="comments">Comments:</label><br><br>
+            <textarea id="comments" name="comments" rows="4" cols="35"></textarea><br>
+          </div>
+          <center>
+          <a href="#">
+                 SUBMIT
+             <span></span>
+          </a></center>
+        </form>
+      </div> 
+</body>
+</html>
